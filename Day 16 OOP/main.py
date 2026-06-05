@@ -25,7 +25,7 @@ table = PrettyTable()
 table.add_column(
     "Pokemon Name",
     ["Pikachu", "Squirtle", "Charmander"],
-    align='l'
+    align='l',
 )
 table.add_column(
     "Type",
@@ -33,3 +33,4 @@ table.add_column(
 )
 
 print(table)
+print(type(table))
